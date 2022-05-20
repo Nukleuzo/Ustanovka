@@ -12,7 +12,7 @@ public class Main {
 
         // Объявляем и создаем src, res, savegame, temp в Games
 
-        File dir = new File("C://Users//vasiliy.gudin//IdeaProjects//Games");
+        File dir = new File("Z://Games");
         if (dir.mkdir()) System.out.println();  // TODO почему если убрать sout - не записывается в файл  ??
         log.append("Создана директория Games");
         log.append('\n');
